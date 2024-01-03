@@ -8,7 +8,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
   styleUrls: ['./weather-features.component.css'],
 })
 export class WeatherFeaturesComponent {
-  gifUrl: any;
+  gifUrl: SafeResourceUrl;
 
   constructor(
     private sanitizer: DomSanitizer,
