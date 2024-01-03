@@ -1,28 +1,7 @@
-# Project2
+my project consists of information on garderning and an article that shows how planting is involved. Its called EverGreen and its beautiful😭❤
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+You will find the actual web here: https://yungpharaoh65.github.io/EverGreen/ 
 
-## Development server
+Lemme know how you feel (this my first one of many😂)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# EverGreen" 
+- In this gardening project powered by Angular, a template-driven form has been seamlessly integrated to capture essential gardening information, enabling users to input and manage details effortlessly. Leveraging Angular Material's `MatSlideToggleModule`, the project incorporates stylish slide toggles, enhancing user interaction and providing an intuitive interface. Alongside these features, an insightful article explores the intricacies of planting, enriching the user experience by combining practical data collection with educational content. This cohesive blend of Angular's form capabilities, Angular Material components, and informative articles ensures a dynamic and engaging platform for gardening enthusiasts.
