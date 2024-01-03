@@ -1,0 +1,112 @@
+h1{
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .text {
+    width: 21rem;
+    height: 250px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: -2rem;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(
+      122,
+      133,
+      117,
+      0.5
+    ); /* Use rgba for transparency (0.5 sets 50% opacity) */
+    border-radius: px;
+    color: white;
+  }
+
+  .boxtext1 {
+    margin-left: -80px;
+  }
+
+  .texts{
+    margin-left: 25px;
+  }
+
+  .image img{
+    width: 21rem;
+    height: auto;
+    margin-left: 17.5rem;
+    margin-top: 1rem;
+  }
+
+  .boxtotal1{
+    margin-left:-7rem ;
+    margin-top: 5rem;
+  }
+
+  .boxtotal2{
+    margin-left: 19rem;
+    margin-top: -27.8rem;
+  }
+
+  .boxtotal3{
+    margin-left: 45rem;
+    margin-top: -38.8rem;
+    margin-bottom: 8rem;
+  }
+
+  a{
+    color: green;
+  }
+
+    /* This style block is for transitioning the anchor tag */
+.boxtotal1 {
+  transition-property: transform; /* Specifies the property to be transitioned (transform in this case) */
+  transition-duration: 0.4s; /* Specifies the duration of the transition in seconds */
+  transition-timing-function: ease; /* Specifies the timing function for the transition (ease in this case) */
+  transition-delay: 0s; /* Specifies the delay before the transition starts in seconds */
+}
+
+/* This style block is for the hover effect on the anchor tag */
+.boxtotal1:hover {
+  opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+  transform: translateY(-8px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+}
+
+
+    /* This style block is for transitioning the anchor tag */
+    .boxtotal2 {
+      transition-property: transform; /* Specifies the property to be transitioned (transform in this case) */
+      transition-duration: 0.4s; /* Specifies the duration of the transition in seconds */
+      transition-timing-function: ease; /* Specifies the timing function for the transition (ease in this case) */
+      transition-delay: 0s; /* Specifies the delay before the transition starts in seconds */
+    }
+    
+    /* This style block is for the hover effect on the anchor tag */
+    .boxtotal2:hover {
+      opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+      cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+      transform: translateY(-8px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+    }
+
+        /* This style block is for transitioning the anchor tag */
+.boxtotal3 {
+  transition-property: transform; /* Specifies the property to be transitioned (transform in this case) */
+  transition-duration: 0.4s; /* Specifies the duration of the transition in seconds */
+  transition-timing-function: ease-in-out; /* Specifies the timing function for the transition (ease in this case) */
+  transition-delay: 0s; /* Specifies the delay before the transition starts in seconds */
+}
+
+/* This style block is for the hover effect on the anchor tag */
+.boxtotal3:hover {
+  opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+  transform: translateY(-8px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+}
+
+
+
+

@@ -1,0 +1,21 @@
+<ngx-spinner
+  bdColor="rgba(51,51,51,0.8)"
+  size="medium"
+  color="#fff"
+  type="ball-triangle-path"
+>
+  <p style="font-size: 20px; color: white">Loading...</p>
+</ngx-spinner>
+
+<button routerLink="/homepage" class="slidein" (click)="openSpinner()">
+  click To Get Started
+</button>
+
+<div class="logo">
+  <img [src]="gifUrl" alt="Your GIF" />
+</div>
+
+<h2>
+  Ever
+  <div class="color">Green</div>
+</h2>

@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #043a3a;
+    color: #fff;
+    padding: 70px;
+    font-family: Arial, sans-serif;
+    margin-top: 90px;
+    margin-left: -.5rem;
+    margin-bottom: -.5rem;
+    border-radius: 60px 0px 0px 0px;
+  
+  }
+
+  .footer div {
+    text-align: left;
+  }
+
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .footer p.footerheader {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  input#newsletter {
+    padding: 15px;
+    width: 150px; /* Adjusted width */
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    color: rgb(37, 63, 22);
+    margin-left: 0px;
+    margin-top: 15px;
+    outline:transparent;
+  }
+
+  #submitBtn {
+    padding: 15px;
+    border-top-right-radius: 10px; /* Adjusted radius */
+    border-bottom-right-radius: 10px; /* Adjusted radius */
+    border: none;
+    background-color: #45a049;
+    margin-left: 0px; /* Adjusted margin */
+    margin-top: 15px; /* Adjusted margin */
+    opacity: .8; /*makes the color look duller*/
+    color: white;
+  }
+
+  #submitBtn:hover{ 
+    opacity: 10;
+    cursor: pointer;
+}
+
+  .quicklinks{
+    margin-left: 0x;
+  }
+
+  .contactus{
+    margin-left: 0px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .box44 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-right: .3rem; /* Add margin for spacing between boxes */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+
+  .smalltext{
+    color: rgb(255, 255, 255);
+    margin-left: 33rem;
+    margin-top: -2.3rem;
+    font-size: .8rem;
+  }
+
+
+
+  .formbutton{
+    margin-top: 2rem;
+    margin-left: -15rem;
+  }
+
+  .ng-invalid, .ng-dirty{
+    color: red;
+  }
+
+  .ng-submitted{
+    color: #45a049;
+  }

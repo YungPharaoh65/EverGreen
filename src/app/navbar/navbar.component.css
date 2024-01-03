@@ -1,0 +1,60 @@
+nav {
+    background-color: #043a3a;
+    overflow: clip;
+    padding: 60px;
+    margin-left: -.6rem;
+    margin-top: -.5rem;
+    border-radius: 0px 0px 40px 0px;
+  
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    margin-left: -50px; /* Adjust the left margin as needed */
+    margin-right: 20px; /* Adjust the right margin as needed */
+    padding: 20px 40px;
+    font-size: 1rem;
+    text-decoration: dotted;
+   
+  }
+  
+  .navText a:hover {
+    background-color: #4CAF50; /* Adjust the color as needed */
+    border-radius: 1rem;
+  }
+  
+  .navText {
+    margin-left: 355px;
+  }
+  
+  
+    button{
+      margin-left: 10rem;
+      margin-top: 0px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: rgb(114, 170, 54);
+      color: white;
+      border: none;
+      width: 130px;
+      opacity: .8; /*makes the color look duller*/
+      color: white;
+  
+  
+      /*this effect works to trasition the button of your */
+      transition-property: transform; 
+      transition-duration: 0.5s; 
+      transition-timing-function: ease ;
+      transition-delay: 0s;
+    }
+  
+    div button:hover{ 
+      opacity: 1;
+      cursor: pointer;
+      transform: translatex(-10px);
+  }
+  
+  
+  

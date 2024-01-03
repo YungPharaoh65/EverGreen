@@ -1,0 +1,27 @@
+.logo img{
+
+    width:20rem;
+    height: auto;
+    justify-content: center;
+    align-content:center;
+    margin-left: 30rem;
+    margin-top: 3rem;
+    border-radius: 5rem;
+}
+
+button{
+    margin-left: 36rem;
+    padding: 30px;
+    border-radius: 10rem;
+    background-color:  rgb(63, 133, 63);
+    color: white;
+    border: none;
+    width: 12rem;
+    opacity: .8; /*makes the color look duller*/
+    color: white;
+    cursor: pointer;
+}
+
+h4{
+    font-size: 1.rem;
+}

@@ -1,0 +1,131 @@
+ .m1{
+    width: 900px;
+    height: 480px;
+    background-color: #F5F4E0;
+    /*border: 1px solid;*/
+    /*box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);*/
+  }
+
+  input.ng-invalid.ng-touched{
+    border: red 2px solid;
+  }
+
+  input.ng-valid.ng-touched{
+    border:  #45a049 2px solid;
+  }
+
+  small{
+    color: red;
+    font-weight: 500;
+    margin-left: 65px;
+
+  }
+
+  .submit-btn {
+    padding: 15px;
+    width: 364px;
+    border: none;
+    border-radius: 25px;
+    background-color: #45a049;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: fixed;
+  }
+
+  .input,
+  #username,
+  #password {
+    width: 200px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /*border: green 1px solid;*/
+    border-radius: 2rem;
+    
+  }
+
+  h1 {
+    margin-left: 60px;
+    margin-top: -300px;
+    font-size: 100px;
+  }
+
+  p {
+    margin-left: 60px;
+    margin-top: -20px;
+  }
+
+  a {
+    color: #45a049;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button{
+    background-color: white;
+    border: none;
+    margin-left: 15px;
+    color: #45a049;
+    cursor: pointer;
+    position:fixed;
+  }
+
+  .logo img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 30rem;
+    margin-top: -20.5rem; 
+    position: fixed;
+  }
+
+  .movepass{
+    margin-left: 12rem;
+    margin-top: 0rem;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+  }
+
+  .moveto{
+    margin-left: 40rem;
+    margin-top: 1.5rem;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+  }
+
+  /* This style block is for transitioning the anchor tag */
+  .movepass {
+    transition: transform 0.5s  ease 0s;
+  }
+  
+  /* This style block is for the hover effect on the anchor tag */
+  .movepass:hover {
+    opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+    transform: translatex(-50px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+  }
+
+    /* This style block is for transitioning the anchor tag */
+    .moveto {
+      transition: transform 0.5s  ease 0s;
+    }
+    
+    /* This style block is for the hover effect on the anchor tag */
+    .moveto:hover {
+      opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+      cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+      transform: translatex(-50px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+    }
+
+
+ .passtotal{
+  margin-left: -5rem;
+ }

@@ -1,0 +1,110 @@
+.box {
+    width: 250px;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    background-color: rgba(
+      12,
+      137,
+      221,
+      0.5
+    ); /* Use rgba for transparency (0.5 sets 50% opacity) */
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow (adjust values as needed) */
+    
+  }
+
+  .box2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    margin-top: 150px;
+    
+    background-color: rgba(
+      172,
+      12,
+      221,
+      0.5
+    ); /* Use rgba for transparency (0.5 sets 50% opacity) */
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow (adjust values as needed) */
+    
+  }
+
+  .box3 {
+    width: 250px;
+    height: 250px;
+    margin-left: 710px;
+    margin-bottom: 0px;
+    margin-top: -41rem;
+    background-color: rgb(
+      250,
+      209,
+      29
+    ); /* Use rgba for transparency (0.5 sets 50% opacity) */
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow (adjust values as needed) */
+    cursor: pointer;
+  }
+
+  .box4 {
+    width: 250px;
+    height: 250px;
+    margin-left: 710px;
+    margin-bottom: 0px;
+    margin-top: 150px;
+    background-color: rgb(
+      60,
+      211,
+      22
+    ); /* Use rgba for transparency (0.5 sets 50% opacity) */
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow (adjust values as needed) */
+    cursor: pointer;
+  }
+
+  .box5 {
+    width: 250px;
+    height: 250px;
+    margin-left: 540px;
+    margin-bottom: 250px;
+    margin-top: -440px;
+    background-color: rgb(
+      255,
+      42,
+      42
+    ); /* Use rgba for transparency (0.5 sets 50% opacity) */
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow (adjust values as needed) */
+        cursor: pointer;
+  }
+
+  .move1{
+    margin-left: -1rem;
+    cursor: pointer;
+  }
+
+
+  .move2{
+    margin-left: 8rem;
+  }
+
+  h2 {
+    margin-left: 50px;
+    padding-top: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .text{
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }

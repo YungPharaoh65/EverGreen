@@ -1,0 +1,67 @@
+.logo img{
+    width: 50rem;
+    height: auto;
+    margin-left: 16rem;
+    margin-top: -8rem;
+}
+
+h2{
+    margin-top: -3rem;
+    margin-left: 35.5rem;
+    color: rgb(14, 163, 14);
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+button{
+    margin-bottom: -20rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    padding: 5rem;
+    border-bottom-right-radius: 10rem;
+    text-align:center;
+    font-size: 1rem;
+    background-color: rgb(100, 187, 6);
+    color: white;
+    border: none;
+    width: 15rem;
+    opacity: .8; /*makes the color look duller*/
+    color: white;
+    cursor: pointer;
+
+  }
+
+  div button:hover{ 
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+@keyframes slidein {
+    from {
+      transform: translateX(
+       -300px
+      ); /*where youd like the frame animation
+                                       to start*/
+    }
+
+    to {
+      transform: translateX(
+        0
+      ); /*where it ends. since its zero, it will remain
+                                 at its original ppostion*/
+    }
+  }
+
+  .slidein {
+    animation: slidein 3s ease-in 1s 1 normal none;
+
+  }
+  /*animation formula end here*/
+
+
+.color{
+    color: black;
+    margin-left: 4rem;
+    margin-top: .1rem;
+}

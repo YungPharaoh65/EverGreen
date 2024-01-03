@@ -1,0 +1,131 @@
+.image1 img{
+    width: 500px; /* Set the desired width */
+    height: auto; /* This will automatically maintain the image's aspect ratio */
+    border-bottom-right-radius: 90px;
+    margin-left: -.5rem;
+}
+
+h1{
+        margin-left: 650px;
+        margin-top: -600px;
+        font-size: 85px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.para1 {
+    margin-left: 670px;
+    margin-top: 40px;
+    margin-bottom: 120px;  
+  }
+
+  button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(122, 206, 33);
+    color: white;
+    border: none;
+    width: 120px;
+    opacity: .8; /*makes the color look duller*/
+    color: white;
+
+          /*this effect works to trasition the button of your */
+          transition-property: transform; 
+          transition-duration: 0.5s; 
+          transition-timing-function: ease ;
+          transition-delay: 0s;
+      
+  }
+
+  div button:hover{ 
+    opacity: 1;
+    cursor: pointer;
+    transform: translatey(-10px);
+}
+
+#getStartedBtn{
+    margin-left: 65px;
+}
+
+h2{
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+.para2 {
+    margin-left: 70px;
+    margin-top: 25px;
+  }
+
+  .image2 img{
+    width: 400px; /* Set the desired width */
+    height: auto; /* This will automatically maintain the image's aspect ratio */
+    border-radius: 40px;
+    margin-left: 850px;
+    margin-top: -110px;
+    margin-bottom: 80px;
+  }
+
+
+  .section {
+    margin-left: 60px;
+    margin-top: -560px;
+  }
+
+  .section2{
+    margin-left: 60px;
+    margin-top: 250px;
+  }
+
+  .section3{
+    margin-left: 0px;
+    margin-top: 250px;
+  }
+
+  .box1 {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(41, 189, 11, 0.5);
+    margin-left: 4px; /* Adjust the margin as needed */
+    margin-top: -130px;
+    border-radius: 15px;
+  }
+
+  .para3 {
+    margin-left: 105px;
+    font-size: 15px;
+    margin-top: -105px;
+    margin-bottom: 50px;
+  }
+
+  a{
+    color: rgb(66, 223, 66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* This style block is for transitioning the anchor tag */
+.readmore {
+  transition-property: transform; /* Specifies the property to be transitioned (transform in this case) */
+  transition-duration: 0.5s; /* Specifies the duration of the transition in seconds */
+  transition-timing-function: ease; /* Specifies the timing function for the transition (ease in this case) */
+  transition-delay: 0s; /* Specifies the delay before the transition starts in seconds */
+}
+
+/* This style block is for the hover effect on the anchor tag */
+.readmore:hover {
+  opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+  transform: translateY(-8px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+}
+
+
+  .icon img{
+    margin-left: 15px;
+    margin-top: 12px;
+  }

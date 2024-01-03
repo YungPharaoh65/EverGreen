@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  color: #45a049;
+}
+
+header p {
+  color: #666;
+  font-size: 1rem;
+}
+
+section h2 {
+  color: #45a049;
+}
+
+section p {
+  color: #333;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}
+
+img{
+  width: 20rem;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.overview{
+  margin-left:26rem;
+  margin-top: -14rem;
+}
+
+.mission{
+  margin-left:56rem;
+  margin-top: -15.3rem;
+}
+
+.target-audience{
+  margin-top: 12rem;
+  margin-left: 2rem;
+}
+
+.revenue-model{
+  margin-top: -8rem;
+  margin-left: 42rem;
+}
+
+.services{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 2rem;
+  border-bottom-left-radius: 2rem;
+  border: none;
+  background-color: #39ad3f;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button:hover{
+opacity: .5rem;
+background-color: #374638;
+cursor: pointer;
+}

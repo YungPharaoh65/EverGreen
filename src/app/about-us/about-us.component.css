@@ -1,0 +1,191 @@
+h1{
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+
+.image1 img{
+    margin-left: 50px;
+
+}
+
+.border {
+    border: none;
+    background-color: rgb(85, 145, 70);
+    padding: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -5px;
+    margin-bottom: 140px;
+    width: 64.6rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .bordertext{
+    font-size: 4rem;
+    margin-left: -2rem;
+    margin-bottom: -3rem;
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+  }
+
+  .minitext{
+    margin-top: 4.7rem;
+    margin-bottom: -5.5rem;
+    margin-left: -3.6rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+  }
+
+  .borderminitext{
+    margin-top: -1rem;
+  }
+
+  .borderminitext2{
+    margin-left: 20rem;
+    margin-top: -5rem
+  }
+
+  .borderminitext3{
+    margin-left: 43rem;
+    margin-top: -4.2rem
+  }
+
+  .align1{
+    margin-left: -1.2rem;
+  }
+
+  .borderminitext4{
+    margin-left: 61rem;
+    margin-top: -4.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .align2{
+    margin-left: 2.3rem;
+  }
+
+  .box,
+  .box2,
+  .box3 {
+    width: 270px;
+    height: 270px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    background-color: rgb(90, 163, 72); /* Use rgba for transparency (0.5 sets 50% opacity) */
+    border-radius: 15px;
+    color: white;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow (adjust values as needed) */
+  }
+
+  .boxcloumn2{
+    margin-left: 355px;
+    margin-top: -960px;
+  }
+
+  .boxcloumn3{
+    margin-left: 700px;
+    margin-top: -960px;
+  }
+
+  .galllery img{
+    width: 16.85rem;
+    height:16.85rem;
+  }
+
+  .gallerytext{
+
+    padding-top: 3.5rem;
+  }
+
+  a{
+    margin-left: 6rem;
+    color: white;
+  }
+
+  .vl {
+    border-left: 2px solid rgb(255, 255, 255);
+    width: 10px;
+    height: 100px;
+    margin-left: 10rem;
+  }
+
+  .vl2 {
+    border-left: 2px solid rgb(255, 255, 255);
+    width: 10px;
+    height: 100px;
+    margin-left: 33rem;
+    margin-top: -5.2rem;
+  }
+
+  .vl3 {
+    border-left: 2px solid rgb(255, 255, 255);
+    width: 10px;
+    height: 100px;
+    margin-left: 55rem;
+    margin-top: -6.3rem;
+  }
+
+  .border-radius img{
+    border-radius: 1rem;
+  }
+
+  /* This style block is for transitioning the anchor tag */
+.box2 {
+  transition: transform 0.5s  ease 0s;
+}
+
+/* This style block is for the hover effect on the anchor tag */
+.box2:hover {
+  opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+  transform: translatex(-18px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+}
+
+  /* This style block is for transitioning the anchor tag */
+  .box22 {
+    transition: transform 0.5s  ease 0s;
+  }
+  
+  /* This style block is for the hover effect on the anchor tag */
+  .box22:hover {
+    opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+    transform: translatex(18px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+  }
+
+
+
+
+  /* This style block is for transitioning the anchor tag */
+  .box3 {
+    transition: transform 0.5s  ease 0s;
+  }
+  
+  /* This style block is for the hover effect on the anchor tag */
+  .box3:hover {
+    opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+    transform: translatey(-18px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+  }
+
+    /* This style block is for transitioning the anchor tag */
+    .box33 {
+      transition: transform 0.5s  ease 0s;
+    }
+    
+    /* This style block is for the hover effect on the anchor tag */
+    .box33:hover {
+      opacity: 1; /* Sets the opacity to 1 when the anchor tag is hovered */
+      cursor: pointer; /* Changes the cursor to a pointer when hovering over the anchor tag */
+      transform: translatey(18px); /* Translates the anchor tag 10 pixels up on the Y-axis when hovered */
+    }

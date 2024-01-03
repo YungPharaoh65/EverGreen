@@ -1,0 +1,99 @@
+<div class="footer">
+  <div>
+    <p class="footerheader">EverGreen</p>
+    <p footertext>
+      Lorem ipsum dolor sit amet, <br />
+      consectetur adipiscing elit. <br />
+      Morbi sit amet neque tortor.
+    </p>
+    <br />
+    <div class="container">
+      <div class="box44">
+        <div class="imgpost" routerLink="">
+          <a href="mailto:princemsimango27@gmail.com"
+            ><img
+              src="assets/aboutusimg/footericons/icons8-email-24.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="box44">
+        <div class="imgpost">
+          <a href="https://www.linkedin.com/in/prince-mpho-msimango-26b3b6282/"
+            ><img
+              src="assets/aboutusimg/footericons/icons8-linkedin-30.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="box44">
+        <div class="imgpost">
+          <a href="https://www.youtube.com/watch?v=yoVsoJ8ulBE"
+            ><img src="assets/aboutusimg/footericons/Group (2).png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="box44">
+        <div class="imgpost">
+          <a
+            href="https://www.instagram.com/princemphomsimango?igsh=eDl4dWFyYjZ1eXdr"
+            ><img src="assets/aboutusimg/footericons/Group.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <p class="footerheader">Quick Links</p>
+    <div class="quicklinks">
+      <a href="AboutUs.html">About Us</a>
+      <a href="footerpages.html/ContactInfo.html">Service</a>
+      <a href="Signup.html">Pricing</a>
+    </div>
+  </div>
+
+  <div>
+    <p class="footerheader">Contact Us</p>
+    <div class="contactus">
+      <a href="#">PreKheluTradings@gmail.com</a>
+      <a href="footerpages.html/Support.html">Address And More...</a>
+      <a href="footerpages.html/FAQ.html">FAQ</a>
+    </div>
+  </div>
+
+
+
+
+   
+      
+      <p class="footerheader">Newsletter</p>
+      <form class="formbutton" #newsletterForm="ngForm">
+        <input
+          id="newsletter"
+          name="email"
+          placeholder="Enter your email"
+          [(ngModel)]="email"
+          #emailInput="ngModel"
+          required
+          email
+        />
+        <button id="submitBtn" (click)="submitForm()" [disabled]="!newsletterForm.valid">Submit</button>
+
+        <br><br>
+        <div *ngIf="submitted" class="message">We appreciate the support</div>
+      
+    
+      <!-- Display validation error message -->
+      <div *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched)" class="error">
+        <div *ngIf="emailInput.errors?.['required']">Email is required.</div>
+        <div *ngIf="emailInput.errors?.['email']">Invalid email format.</div>
+      </div>
+    </form>
+      <!-- Display the message if the form is submitted -->
+      
+    </div>
+    
+
+<p class="smalltext">created demo by PrinceMphoMsimango@2023</p>
+
