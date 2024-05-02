@@ -11,3 +11,5 @@ Lemme know how you feel (this my first one of many😂)
 Evergreen's commitment to being a comprehensive resource is reflected in its diverse range of content. From detailed plant profiles and care guides to gardening tips and DIY projects, the website leaves no leaf unturned. Each piece of information is presented with clarity and precision, empowering users to enhance their plant knowledge and gardening skills.
 
 EverGreen [ https://yungpharaoh65.github.io/EverGreen/ ] ❤
+
+![2024-05-02 (1)](https://github.com/YungPharaoh65/EverGreen/assets/144108667/823a838a-b120-4229-bea0-870d1eafe5d0)
