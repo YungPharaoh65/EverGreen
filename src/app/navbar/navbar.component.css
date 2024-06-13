@@ -57,4 +57,111 @@ nav {
   }
   
   
-  
+  /* Default navbar styles */
+nav {
+  background-color: #043a3a;
+  overflow: clip;
+  padding: 60px;
+  margin-left: -0.6rem;
+  margin-top: -0.5rem;
+  border-radius: 0px 0px 40px 0px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  margin-left: -50px; /* Adjust the left margin as needed */
+  margin-right: 20px; /* Adjust the right margin as needed */
+  padding: 20px 40px;
+  font-size: 1rem;
+  text-decoration: dotted;
+}
+
+.navText a:hover {
+  background-color: #4CAF50; /* Adjust the color as needed */
+  border-radius: 1rem;
+}
+
+.navText {
+  margin-left: 355px;
+}
+
+button {
+  margin-left: 10rem;
+  margin-top: 0px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(114, 170, 54);
+  color: white;
+  border: none;
+  width: 130px;
+  opacity: 0.8; /* makes the color look duller */
+  transition-property: transform; 
+  transition-duration: 0.5s; 
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+div button:hover { 
+  opacity: 1;
+  cursor: pointer;
+  transform: translateX(-10px);
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  nav {
+      padding: 40px;
+      margin-left: -2rem;
+      margin-top: 0;
+      border-radius: 0;
+      margin-top: -.5rem;
+      overflow: clip;
+  }
+
+  nav a {
+      margin-left: -20px; /* Adjust the left margin as needed */
+      margin-right: 10px; /* Adjust the right margin as needed */
+      padding: 15px 30px;
+      font-size: 0.9rem;
+  }
+
+  .navText {
+      margin-left: 2px;
+  }
+
+  button {
+      margin-left: 20rem;
+      padding: 10px;
+      width: 100px;
+      
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  nav {
+      padding: 20px;
+      margin-left: 0;
+      margin-top: 0;
+      border-radius: 0;
+  }
+
+  nav a {
+      margin-left: 0; /* Adjust the left margin as needed */
+      margin-right: 5px; /* Adjust the right margin as needed */
+      padding: 10px 20px;
+      font-size: 0.8rem;
+  }
+
+  .navText {
+      margin-left: 100px;
+  }
+
+  button {
+      margin-left: 1rem;
+      padding: 10px;
+      width: 80px;
+  }
+}

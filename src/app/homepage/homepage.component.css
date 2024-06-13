@@ -129,3 +129,191 @@ h2{
     margin-left: 15px;
     margin-top: 12px;
   }
+
+  /*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*/
+  /*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*/
+  /*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*/
+  /*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*//*MEDIA QUERIES*/
+  
+
+  /* Media query for tablets */
+@media (max-width: 768px) {
+  .image1 img {
+      width: 400px;
+      margin-left: 0;
+  }
+
+  h1 {
+      margin-left: 50px;
+      margin-top: -400px;
+      font-size: 65px;
+  }
+
+  .para1 {
+      margin-left: 60px;
+      margin-top: 20px;
+      margin-bottom: 60px;
+  }
+
+  button {
+      width: 100px;
+      padding: 15px;
+  }
+
+  #getStartedBtn {
+      margin-left: 30px;
+  }
+
+  h2 {
+      font-size: 50px;
+      margin-left: 30px;
+  }
+
+  .para2 {
+      margin-left: 40px;
+      margin-top: 20px;
+  }
+
+  .image2 img {
+      width: 300px;
+      margin-left: 30px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+  }
+
+  .section {
+      margin-left: 30px;
+      margin-top: -300px;
+  }
+
+  .section2 {
+      margin-left: 30px;
+      margin-top: 150px;
+  }
+
+  .section3 {
+      margin-left: 0;
+      margin-top: 150px;
+  }
+
+  .box1 {
+      width: 50px;
+      height: 50px;
+      margin-top: -100px;
+      border-radius: 10px;
+  }
+
+  .para3 {
+      margin-left: 70px;
+      font-size: 13px;
+      margin-top: -80px;
+      margin-bottom: 30px;
+  }
+
+  .smalltext {
+      margin-left: 0;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .formbutton {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+
+  .quicklinks,
+  .contactus {
+      margin-left: 0;
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .image1 img {
+      width: 250px;
+      margin-left: 0;
+  }
+
+  h1 {
+      margin-left: 20px;
+      margin-top: -250px;
+      font-size: 45px;
+  }
+
+  .para1 {
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+  }
+
+  button {
+      width: 80px;
+      padding: 10px;
+  }
+
+  #getStartedBtn {
+      margin-left: 10px;
+  }
+
+  h2 {
+      font-size: 35px;
+      margin-left: 20px;
+  }
+
+  .para2 {
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+
+  .image2 img {
+      width: 200px;
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+
+  .section {
+      margin-left: 20px;
+      margin-top: -200px;
+  }
+
+  .section2 {
+      margin-left: 20px;
+      margin-top: 100px;
+  }
+
+  .section3 {
+      margin-left: 0;
+      margin-top: 100px;
+  }
+
+  .box1 {
+      width: 40px;
+      height: 40px;
+      margin-top: -80px;
+      border-radius: 5px;
+  }
+
+  .para3 {
+      margin-left: 50px;
+      font-size: 12px;
+      margin-top: -60px;
+      margin-bottom: 20px;
+  }
+
+  .smalltext {
+      margin-left: 0;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .formbutton {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  .quicklinks,
+  .contactus {
+      margin-left: 0;
+  }
+}
